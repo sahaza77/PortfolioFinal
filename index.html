@@ -25,13 +25,13 @@
       </a>
 
       <nav class="menu">
-        <a href="#accueil">Accueil</a>
-        <a href="#parcours">Parcours</a>
-        <a href="#competences">Compétences</a>
-        <a href="#realisations">Réalisations</a>
-        <a href="#veille">Veille</a>
-        <a href="#conclusion">Conclusion</a>
-        <a href="#contact">Contact</a>
+        <a class="nav-link" href="#accueil">Accueil</a>
+        <a class="nav-link" href="#parcours">Parcours</a>
+        <a class="nav-link" href="#competences">Compétences</a>
+        <a class="nav-link" href="#realisations">Réalisations</a>
+        <a class="nav-link" href="#veille">Veille</a>
+        <a class="nav-link" href="#conclusion">Conclusion</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </nav>
     </div>
   </header>
@@ -67,11 +67,6 @@
             <a class="btn btn-primary" href="#realisations">Voir mes projets</a>
             <a class="btn btn-secondary" href="#parcours">Découvrir mon parcours</a>
             <a class="btn btn-secondary" href="cv_sahaza.pdf" target="_blank">Consulter mon CV</a>
-          </div>
-
-          <div class="socials">
-            <a class="social-btn" href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-            <a class="social-btn" href="https://github.com/sahaza77" target="_blank">GitHub</a>
           </div>
         </div>
 
@@ -226,7 +221,7 @@
 
         <div class="projects-grid">
           <article class="card project-card">
-            <div class="tag">Développement</div>
+            <div class="tag">Projets</div>
             <h3>Mes projets BTS</h3>
             <p>
               Projets de développement réalisés pendant la formation : applications, web, base de données, analyse des besoins et documentation.
@@ -237,7 +232,7 @@
           </article>
 
           <article class="card project-card">
-            <div class="tag">Entreprise</div>
+            <div class="tag">Stage</div>
             <h3>Stage de 1ère année</h3>
             <p>
               Présentation de l'entreprise, des missions confiées, des outils utilisés et des compétences professionnelles développées.
@@ -248,7 +243,7 @@
           </article>
 
           <article class="card project-card">
-            <div class="tag">Expérience</div>
+            <div class="tag">Stage</div>
             <h3>Stage de 2ème année</h3>
             <p>
               Stage chez Ouéso Agency : mise à jour de site, ajout de produits, création de visuels et maintenance de site client.
@@ -351,42 +346,91 @@
           <h2>Conclusion de mon parcours</h2>
         </div>
 
-        <div class="card contact-card">
-          <div>
-            <p>
-              Ce portfolio présente mon parcours de formation, les compétences que j’ai développées
-              ainsi que les projets et expériences qui ont contribué à mon évolution dans le domaine
-              du développement informatique.
-            </p>
+        <div class="card conclusion-card">
+          <p>
+            Ce portfolio présente mon parcours de formation, les compétences que j’ai développées
+            ainsi que les projets et expériences qui ont contribué à mon évolution dans le domaine
+            du développement informatique.
+          </p>
 
-            <p>
-              La réalisation de ce site m’a permis de structurer mon travail, de valoriser mes compétences
-              et de présenter de manière claire mon parcours dans le BTS SIO option SLAM.
-            </p>
+          <p>
+            La réalisation de ce site m’a permis de structurer mon travail, de valoriser mes compétences
+            et de présenter de manière claire mon parcours dans le BTS SIO option SLAM.
+          </p>
 
-            <p>
-              Ce portfolio a vocation à évoluer avec de nouveaux projets et expériences professionnelles.
-            </p>
-          </div>
+          <p>
+            Ce portfolio a vocation à évoluer avec de nouveaux projets et expériences professionnelles.
+          </p>
         </div>
       </div>
     </section>
 
     <section id="contact" class="section reveal">
       <div class="container">
-        <div class="card contact-card">
-          <div>
-            <p class="section-kicker">Contact</p>
-            <h2>Pour me contacter</h2>
+        <div class="section-head">
+          <p class="section-kicker">Contact</p>
+          <h2>Contactez-moi</h2>
+        </div>
+
+        <div class="card contact-premium-card">
+          <div class="contact-profile">
+            <div class="contact-avatar-wrap">
+              <img src="photo.png" alt="Photo de profil" class="contact-avatar" />
+            </div>
+
+            <div class="contact-profile-text">
+              <p class="contact-role">Étudiant en BTS SIO SLAM</p>
+              <h3>Sahazaniaina Randrianasolo</h3>
+              <p>
+                N'hésitez pas à me contacter pour échanger à propos de mon parcours,
+                de mes projets, de mes stages ou de mes expériences en formation et en entreprise.
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-main-actions">
+            <a class="btn btn-primary" href="mailto:sahaza.pro@gmail.com">M'envoyer un mail</a>
+            <a class="btn btn-secondary" href="#accueil">Retour accueil</a>
+          </div>
+        </div>
+
+        <div class="contact-info-grid">
+          <div class="card contact-info-card">
+            <div class="contact-icon">✉</div>
+            <h3>Email</h3>
             <p>
-              Si vous souhaitez en savoir plus sur mon parcours ou échanger à propos de mes projets,
-              vous pouvez me contacter via les liens ci-dessous.
+              <a href="mailto:sahaza.pro@gmail.com">sahaza.pro@gmail.com</a>
             </p>
           </div>
 
-          <div class="contact-actions">
-            <a class="btn btn-primary" href="#accueil">Retour accueil</a>
-            <a class="btn btn-secondary" href="mailto:contact@example.com">Me contacter</a>
+          <div class="card contact-info-card">
+            <div class="contact-icon">⌘</div>
+            <h3>GitHub</h3>
+            <p>
+              <a href="https://github.com/sahaza77" target="_blank">github.com/sahaza77</a>
+            </p>
+          </div>
+
+          <div class="card contact-info-card">
+            <div class="contact-icon">in</div>
+            <h3>LinkedIn</h3>
+            <p>
+              <a href="https://www.linkedin.com" target="_blank">Voir mon profil LinkedIn</a>
+            </p>
+          </div>
+
+          <div class="card contact-info-card">
+            <div class="contact-icon">☎</div>
+            <h3>Téléphone</h3>
+            <p>
+              <a href="tel:+33767727685">+33 7 67 72 76 85</a>
+            </p>
+          </div>
+
+          <div class="card contact-info-card">
+            <div class="contact-icon">⌂</div>
+            <h3>Localisation</h3>
+            <p>Coulommiers, Seine-et-Marne, France</p>
           </div>
         </div>
       </div>
