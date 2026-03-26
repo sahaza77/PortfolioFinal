@@ -67,10 +67,31 @@
             </p>
           </div>
 
-          <div class="hero-buttons">
-            <a class="btn btn-primary" href="#realisations">Voir mes projets</a>
-            <a class="btn btn-secondary" href="#parcours">Découvrir mon parcours</a>
-            <a class="btn btn-secondary" href="cv_sahaza.pdf" target="_blank">Consulter mon CV</a>
+          <div class="hero-actions">
+            <div class="hero-buttons">
+              <a class="btn btn-primary" href="#realisations">Voir mes projets</a>
+              <a class="btn btn-secondary" href="#parcours">Découvrir mon parcours</a>
+              <a class="btn btn-secondary" href="cv_sahaza.pdf" target="_blank">Consulter mon CV</a>
+            </div>
+
+            <div class="hero-mini-stats">
+              <div class="mini-stat-item">
+                <strong>4</strong>
+                <span>Formations</span>
+              </div>
+              <div class="mini-stat-item">
+                <strong>11</strong>
+                <span>Semaines stage</span>
+              </div>
+              <div class="mini-stat-item">
+                <strong>5</strong>
+                <span>Projets</span>
+              </div>
+              <div class="mini-stat-item">
+                <strong>4</strong>
+                <span>Expériences pro</span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -125,10 +146,8 @@
               <div class="year">2020-2022</div>
               <h3>DEUST Bureautique et Multimédia</h3>
               <p class="subtitle">Université Paris-Est Créteil (UPEC) - Créteil</p>
-              <p>
               <p>Formation axée sur la communication numérique, la création de contenus multimédias et l’utilisation
                 d’outils informatiques en environnement professionnel.</p>
-              </p>
 
               <p><strong>Compétences et outils étudiés :</strong></p>
               <ul>
@@ -309,7 +328,7 @@
               <strong>80%</strong>
             </div>
             <div class="bar">
-              <div style="width:70%"></div>
+              <div style="width:80%"></div>
             </div>
           </div>
         </div>
@@ -395,52 +414,166 @@
       </div>
     </section>
 
-    <section id="realisations" class="section reveal">
-      <div class="container">
-        <div class="section-head">
-          <p class="section-kicker">Réalisations</p>
-          <h2>Projets et stages</h2>
+<section id="realisations" class="section reveal">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Réalisations</p>
+      <h2>Projets et stages</h2>
+    </div>
+
+    <div class="projects-showcase">
+      <article class="card project-card project-card-large">
+        <div class="tag">Projet 1ère année</div>
+        <h3>GeoWorld</h3>
+
+        <div class="project-preview">
+          <img src="images/geoworld-preview.png" alt="Aperçu du projet GeoWorld">
         </div>
 
-        <div class="projects-grid">
-          <article class="card project-card">
-            <div class="tag">Projets</div>
-            <h3>Mes projets BTS</h3>
-            <p>
-              Projets de développement réalisés pendant la formation : applications, web, base de données, analyse des
-              besoins et documentation.
-            </p>
-            <div class="project-actions">
-              <a class="btn btn-secondary small-btn" href="#">Voir les projets</a>
-            </div>
-          </article>
+        <p>
+          Projet web réalisé en première année, centré sur l’exploration de données liées aux pays
+          et à leur affichage dans une interface dynamique. Ce projet m’a permis de travailler
+          le PHP, la structuration de pages web et l’organisation d’un projet en plusieurs fichiers.
+        </p>
 
-          <article class="card project-card">
-            <div class="tag">Stage</div>
-            <h3>Stage de 1ère année</h3>
-            <p>
-              Présentation de l'entreprise, des missions confiées, des outils utilisés et des compétences
-              professionnelles développées.
-            </p>
-            <div class="project-actions">
-              <a class="btn btn-secondary small-btn" href="rapport_stage_1.pdf" target="_blank">Consulter le rapport</a>
-            </div>
-          </article>
-
-          <article class="card project-card">
-            <div class="tag">Stage</div>
-            <h3>Stage de 2ème année</h3>
-            <p>
-              Stage chez Ouéso Agency : mise à jour de site, ajout de produits, création de visuels et maintenance de
-              site client.
-            </p>
-            <div class="project-actions">
-              <a class="btn btn-secondary small-btn" href="rapport_stage_2.pdf" target="_blank">Consulter le rapport</a>
-            </div>
-          </article>
+        <div class="project-tech">
+          <span>PHP</span>
+          <span>HTML / CSS</span>
+          <span>Base de données</span>
+          <span>Pages dynamiques</span>
         </div>
+
+        <div class="project-actions">
+          <a class="btn btn-secondary small-btn" href="https://github.com/sahaza77/Geoworld" target="_blank">GeorWorld</a>
+          <a class="btn btn-secondary small-btn" href="pdf/Geoworld.pdf" target="_blank">Compte rendu GeoWorld</a>
+        </div>
+      </article>
+
+      <article class="card project-card project-card-large">
+        <div class="tag">Projet 1ère année</div>
+        <h3>MovieDB API</h3>
+
+        <div class="project-preview">
+          <img src="images/moviedb-preview.png" alt="Aperçu du projet MovieDB API">
+        </div>
+
+        <p>
+          Application web développée en PHP avec l’API TheMovieDB, permettant d’afficher des films
+          par genre, de consulter la fiche détaillée d’un film et d’effectuer des recherches de films
+          et d’acteurs.
+        </p>
+
+        <div class="project-tech">
+          <span>PHP</span>
+          <span>API REST</span>
+          <span>JSON</span>
+          <span>Bootstrap</span>
+        </div>
+
+        <div class="project-actions">
+          <a class="btn btn-secondary small-btn" href="https://github.com/sahaza77/Api-Movies" target="_blank">Api-Movies</a>
+          <a class="btn btn-secondary small-btn" href="pdf/apimovi.pdf" target="_blank">Compte rendu MovieDB partie 1</a>
+          <a class="btn btn-secondary small-btn" href="pdf/apimovieDBrecherchefilmacteur.pdf" target="_blank">Compte rendu MovieDB partie 2</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="second-year-projects">
+  <div class="section-head second-project-head">
+    <p class="section-kicker">BTS SIO 2ème année</p>
+    <h3>Projets de 2ème année</h3>
+  </div>
+
+  <div class="projects-showcase">
+    <article class="card project-card project-card-large">
+      <div class="tag">Projet 2ème année</div>
+      <h3>SahazaWear</h3>
+
+      <div class="project-preview">
+        <img src="images/sahazawear-preview.png" alt="Aperçu du projet SahazaWear">
       </div>
-    </section>
+
+      <p>
+        Application e-commerce full-stack dédiée à la vente de vêtements pour hommes, réalisée
+        en plusieurs sprints dans le cadre du BTS SIO SLAM. Le projet comprend un front-office,
+        un back-office administrateur, un système d’authentification sécurisé et une gestion complète
+        des produits, commandes et utilisateurs.
+      </p>
+
+      <div class="project-tech">
+        <span>Kotlin</span>
+        <span>Spring Boot</span>
+        <span>Thymeleaf</span>
+        <span>Bootstrap 5</span>
+        <span>MariaDB</span>
+        <span>Spring Security</span>
+      </div>
+
+      <div class="project-actions">
+        <a class="btn btn-secondary small-btn" href="https://github.com/sahaza77/ProjetSahazaWear" target="_blank">SahazaWear</a>
+        <a class="btn btn-secondary small-btn" href="pdf/recapkotlinmonster.pdf" target="_blank">Compte rendu SahazaWear</a>
+      </div>
+    </article>
+
+    <article class="card project-card project-card-large">
+      <div class="tag">Projet 2ème année</div>
+      <h3>SavonApp &amp; SavonAPI</h3>
+
+      <div class="project-preview">
+        <img src="images/savapp-preview.png" alt="Aperçu du projet SavonApp et SavonAPI">
+      </div>
+
+      <p>
+        Application web de formulation de recettes de savon, développée avec un frontend Angular
+        et une API REST dédiée. Le projet permet de composer des recettes, calculer automatiquement
+        les propriétés du savon, afficher des graphiques radar et gérer les recettes et ingrédients
+        via une interface sécurisée avec authentification JWT.
+      </p>
+
+      <div class="project-tech">
+        <span>TypeScript</span>
+        <span>Angular</span>
+        <span>Bootstrap</span>
+        <span>Chart.js</span>
+        <span>JWT</span>
+        <span>MariaDB</span>
+      </div>
+
+      <div class="project-actions">
+        <a class="btn btn-secondary small-btn" href="https://github.com/sahaza77/savonapp" target="_blank">SavonApp/Api</a>
+        <a class="btn btn-secondary small-btn" href="pdf/savAPPrecap.pdf" target="_blank">Compte rendu SavonApp</a>
+      </div>
+    </article>
+  </div>
+</div>
+
+    <div class="projects-grid" style="margin-top: 24px;">
+      <article class="card project-card">
+        <div class="tag">Stage</div>
+        <h3>Stage de 1ère année</h3>
+        <p>
+          Présentation de l'entreprise, des missions confiées, des outils utilisés et des compétences
+          professionnelles développées.
+        </p>
+        <div class="project-actions">
+          <a class="btn btn-secondary small-btn" href="rapport_stage_1.pdf" target="_blank">Consulter le rapport</a>
+        </div>
+      </article>
+
+      <article class="card project-card">
+        <div class="tag">Stage</div>
+        <h3>Stage de 2ème année</h3>
+        <p>
+          Stage chez Ouéso Agency : mise à jour de site, ajout de produits, création de visuels et maintenance de
+          site client.
+        </p>
+        <div class="project-actions">
+          <a class="btn btn-secondary small-btn" href="rapport_stage_2.pdf" target="_blank">Consulter le rapport</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
     <section id="veille" class="section reveal">
       <div class="container">
