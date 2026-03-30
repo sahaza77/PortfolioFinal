@@ -977,3 +977,28 @@ a {
   font-size: 28px;
   margin-top: 8px;
 }
+.badge {
+    margin-left: 8px;
+    padding: 3px 8px;
+    font-size: 0.7rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+/* Couleurs par type */
+.frontend {
+    background-color: #3b82f6; /* bleu */
+}
+
+.backend {
+    background-color: #10b981; /* vert */
+}
+
+.database {
+    background-color: #f59e0b; /* orange */
+}
+
+.tools {
+    background-color: #8b5cf6; /* violet */
+}
